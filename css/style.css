@@ -1,0 +1,363 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu";
+    background: #E5E5E5;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+	align-items: center;
+   	height: 60px;
+    background-color: #519BEB;
+   	display: flex;	
+}
+
+.header-content{
+    display: flex;	
+	justify-content: space-between;
+	margin: 14px 0;
+
+}
+.logo {
+
+}
+.logo-link {
+}
+.menu {
+	display: flex;	
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+
+.menu-header .menu-header__link {
+
+    margin-right: 34px;
+    color: #FFFFFF;
+    text-decoration: none;
+;
+}
+.menu-header .menu-header__link:last-child{
+
+    margin-right: 137px;
+}
+
+
+.download-header {
+}
+.landing {
+}
+.landing-title {
+	display: flex;	
+	justify-content: space-between;
+	align-items: center;
+	color: #617288;
+	margin: 46px 0 51px 0;
+
+}
+
+.landing-title .landing-title__left{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 54px;
+	line-height: 68px;
+
+}
+.landing-title .landing-title__right{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 35px;
+
+}
+
+.landing-column {
+	margin-bottom: 220px;
+}
+
+.column-item{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.trainer-item {
+
+	max-width: 574px;
+	height: 261px;
+	background: #FFFFFF;
+/* Object Shadow */
+	box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.2);
+   width: 100%;
+   margin-bottom: 31px;
+}
+.trainer-item .trainer-item__desc {
+	display: flex;
+	flex-direction: row;
+	padding-left: 16px;
+}
+
+.trainer-item .trainer-item__desc.text-item
+{
+padding-top: 10px;
+
+}
+.trainer-item .trainer-item__icon { 
+
+width: 132px;
+height: 122px;
+padding-top: 28px ;
+
+}
+.trainer-item .trainer-item__icon .round {
+	border-radius: 50%;
+	margin-left: 20px;
+}
+.trainer-item .trainer-item__desc .text-item {
+
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #617288;
+padding-top: 10px;
+margin-left: 14px;
+
+}
+
+
+.trainer-item .trainer-item__desc .text-item .trainer-item__subtitle{
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #A3A3A3;
+line-height: 27px;
+
+
+}
+
+.trainer-item .trainer-item__spec {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #3B495A;
+    margin-left: 32px;
+    margin-top: 26px;
+    line-height: 27px;
+
+
+}
+.trainer-item .trainer-item__spec .specialities_text {
+
+	font-weight: bold;
+	line-height: 27px;
+}
+
+
+ .trainer-item_link {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 7px;
+	margin-bottom: 24px;
+	margin-left: 32px;
+	line-height: 27px;
+}
+
+.trainer-item .trainer-item_link .trainer__link {
+	text-decoration: none;
+	color: #519BEB;
+}
+
+.page__back a{
+text-decoration: none;
+}
+
+.page__back {
+	display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 66px;
+
+}
+.page__back span {
+    font-size: 24px;
+    font-weight: 500;
+    color: #519beb;
+    font-style: normal;
+    line-height: 28px;
+	color: #519BEB;
+}
+
+.page__back img {
+    margin-right: 22px;
+}
+
+
+
+.footer {
+
+	background-color: #519BEB; 
+
+}
+
+.footer-content .footer-item__right h3{
+
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 27px;
+color: #FFFFFF;
+margin: 0;
+
+}
+
+.footer-content .footer-item__right .footer-form__desc {
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+
+.footer-content {
+	padding-top: 40px;
+	display: flex;
+    justify-content: space-between;
+}
+.footer-content .footer-item__left {
+
+    width: 377px;
+
+}
+
+.footer-content .footer-item__menu  .menu-footer__link{
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 20px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+}
+
+.footer-content .footer-item__right{
+
+	    width: 380px;
+
+}
+
+.footer-desc {
+
+    margin-bottom: 32px;
+    margin-left: 1px;
+    font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+
+}
+
+.title__app {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 27px;
+	color: #FFFFFF;
+	margin-bottom: 16px;
+
+}
+
+
+.download-icons {
+	margin-top: 16px;
+    margin-left: -2px;
+    max-width: 319px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.footer .download-icons img {
+    max-width: 140px;
+    width: 100%;
+}
+
+
+.menu-footer {
+	display: flex;
+    flex-direction: column;
+    margin-bottom: 54px;
+}
+.footer-item__menu h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+
+.social-icon{
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer .form-footer {
+	    max-width: 280px;
+    	margin-top: 22px;
+
+}
+.footer .form-footer input {
+    width: 100%;
+    padding: 11px 20px;
+    color: #9ec8f4;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.footer .form-footer input[type=submit] {
+    
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #519beb;
+    padding: 13px 24px 9px 20px;
+    margin-top: 7px;
+    font-size: 20px;
+
+}
+
+
+.coopyright {
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+    text-align: center;
+    padding: 0 15px 28px;
+    color: #FFFFFF;
+    margin: 0;
+}
